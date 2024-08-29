@@ -13,11 +13,11 @@ import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-import googleIcon from '/src/assets/google-icon.png';
-import facebookIcon from "/src/assets/facebook-icon.png";
-import twitterIcon from "/src/assets/twitter-icon.png";
-import instagramIcon from "/src/assets/instagram-icon.png";
-import microsoftIcon from "/src/assets/microsoft-icon.png";
+import googleIcon from './assets/google-icon.png';
+import facebookIcon from "./assets/facebook-icon.png";
+import twitterIcon from "./assets/twitter-icon.png";
+import instagramIcon from "./assets/instagram-icon.png";
+import microsoftIcon from "./assets/microsoft-icon.png";
 
 const defaultTheme = createTheme();
 
@@ -30,8 +30,7 @@ function App() {
       password: data.get("password"),
     });
   };
-
-  return (
+  return ( 
     <ThemeProvider theme={defaultTheme}>
       <Grid container component="main" sx={{ height: "100vh" }}>
         <CssBaseline />
