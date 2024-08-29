@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Robson-Sabio.github.io/gerenciador-de-equipes",
+  "homepage": "https://Robson-Sabio.github.io/Gerenciador-de-equipes",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
